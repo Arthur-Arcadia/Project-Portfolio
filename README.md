@@ -337,7 +337,7 @@ This project strengthened my understanding of how **content, visual communicatio
 ### Links
 
 * [Full Project / Case Study →](PROJECT_REPOSITORY_LINK)
-* [Live Website →](LIVE_WEBSITE_LINK)
+* [Live Website →](LIVE_WEBSITE_LINK)](https://arthur-arcadia.github.io/Cultural-Heritage-Website-Showcase/)
 * [GitHub Repository →](PROJECT_REPOSITORY_LINK)
 
 ---
