@@ -189,7 +189,7 @@ This project strengthened my understanding of designing for **uncertainty, vulne
 
 ---
 
-# 03 — Interactive Physical Installation
+# 03 — The Witch's Puppet - Interactive Carnival Installation
 
 **Type:** Physical Computing / Tangible Interaction / Interactive Installation
 **Role:** Interaction Design / Physical Prototyping / User Research
