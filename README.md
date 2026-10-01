@@ -326,86 +326,86 @@ The project developed my ability to connect cultural information with web intera
 - [Source code](https://github.com/Arthur-Arcadia/Cultural-Heritage-Website-Showcase)  
 - [Website Demo](https://arthur-arcadia.github.io/Cultural-Heritage-Website-Showcase/)  
 
-# 05 — XR Modelling Tool
+# 05 — XR 3D Modelling Tool
 
-**Type:** XR / Spatial Interaction / 3D Interaction
-**Role:** Interaction Design / Unity Development / Prototyping
-**Tools:** Unity / C# / Meta XR / OpenXR
-**Status:** Prototype
+**Type:** XR / Spatial Interaction / 3D Interaction  
+**Role:** Interaction Design / Unity Development / Prototyping / User Testing  
+**Tools:** Unity / C# / Meta XR / OpenXR / Meta Quest  
+**Status:** Evaluated VR prototype  
+**Year:** 2026
 
-### Overview
+## Overview
 
-This project explores an **XR-based modelling environment** that allows users to manipulate virtual objects through spatial interaction.
+A VR workshop for creating and manipulating primitive shapes through controller-based spatial interaction. Users can create shapes, move and rotate them, adjust their scale with two hands, delete them, and switch gravity on or off.
 
-The system focuses on making common 3D manipulation tasks more accessible by providing direct interaction techniques and reducing unnecessary cognitive load.
+The prototype combines a medieval-style workspace with three tutorial areas and an open workshop containing modelling challenges. It explores how direct manipulation and guided practice can support learning in an immersive 3D environment.
 
-### Design Goal
+![Primitive shapes in the VR workshop, captured from the walkthrough](media/workshop.png)
 
-The project explores how XR interaction can support:
+## Design Goal
 
-* object selection;
-* movement;
-* rotation;
-* scaling;
-* snapping;
-* grouping;
-* separating objects;
-* and guided interaction.
+Explore an alternative to screen-based 3D manipulation by letting users work with objects in surrounding space. The design focuses on helping users understand the relationship between controller actions, transformation modes, and object behaviour.
 
-### Interaction Flow
+During iteration, the focus shifted from immersion alone towards clearer guidance and more understandable interactions. The project investigates these goals through a working prototype; it does not establish superiority over desktop modelling software.
 
-Enter XR Environment
-↓
-Tutorial / Familiarisation
-↓
-Select Object
-↓
-Move / Rotate / Scale
-↓
-Snap / Unsnap
-↓
-Group / Separate
-↓
-Continue Modelling
+## Core Interactions
 
-### Key Design Considerations
+| Interaction | Prototype behaviour |
+| --- | --- |
+| Shape creation | Generate primitive shapes from the workbench. The testing plan describes revised creation that places a cloned shape directly into the user's hand. |
+| Direct manipulation | Grab, move, and rotate shapes with VR controllers. |
+| Two-handed scaling | Adjust object size and switch between uniform and non-uniform scaling modes. |
+| Deletion | Remove shapes through the trash-can interaction introduced in the first tutorial. |
+| Gravity control | Switch gravity on or off to explore falling or suspended arrangements. |
+| Guided practice | Progress through creation/deletion, scaling, and gravity tutorials before exploring workshop challenges. |
 
-* Spatial interaction
-* Direct manipulation
-* Affordances
-* Feedback
-* Cognitive load
-* Learnability
-* Object manipulation
-* Tutorial and onboarding
+Combining shapes in the workshop means arranging individual objects into a construction. Dedicated grouping, ungrouping, or mesh-editing tools are not established by the supplied demonstration and evaluation materials.
 
-### Technical Implementation
+## Design Process
 
-* Unity
-* C#
-* Meta XR SDK
-* OpenXR
-* 3D interaction
-* [Other technologies]
+The final report describes three prototype iterations. Earlier testing challenged the assumption that users would understand the interactions with little guidance. The final iteration introduced dedicated tutorial areas and explanatory boards before open-ended workshop practice.
 
-### My Contribution
+The evaluation combined task timings with post-test ratings and written feedback. The report also reflects on removing think-aloud from later sessions because speaking interrupted actions and affected time measurements.
 
-* Interaction design
-* XR interaction prototyping
-* Unity development
-* Interaction logic
-* Tutorial design
-* Testing and iteration
+## Evaluation and Findings
 
-### Key Learning
+The final evaluation involved **four students and one tutor**. All five rated the overall experience **4/5**.
 
-This project allowed me to explore how traditional interaction principles change in **spatial computing environments**, particularly when users interact with objects through direct 3D manipulation.
+| Experience | Mean rating out of 5 |
+| --- | ---: |
+| Shape creation and deletion tutorial | 4.8 |
+| Scaling tutorial | 4.4 |
+| Gravity control tutorial | 4.2 |
+| Overall experience | 4.0 |
 
-### Links
+Participants valued the manipulation features and several found the tutorials helpful. However, feedback exposed unclear controller-button mappings, excessive tutorial text, difficulty controlling scaling, and bugs affecting state feedback. The report records that one participant skipped the gravity tutorial and needed verbal clarification during scaling.
 
-* [Full Project / Case Study →](PROJECT_REPOSITORY_LINK)
-* [Demo Video →](VIDEO_LINK)
-* [GitHub Repository →](PROJECT_REPOSITORY_LINK)
+These findings support further refinement of the learning experience. The small sample and assisted interactions do not demonstrate that every participant independently completed every task or that cognitive load was measurably reduced.
+
+## My Contribution
+
+- Developed the interaction concept and spatial manipulation workflow.
+- Implemented and iterated the Unity prototype and controller interactions.
+- Designed the tutorial sequence and workshop practice activities.
+- Planned and evaluated task-based testing using timings and questionnaires.
+- Synthesised feedback into priorities for visual guidance, controller labels, and clearer state feedback.
+
+## Next Design Priorities
+
+Replace lengthy instructions with shorter steps and progressive prompts; make controller buttons and gravity/scaling states easier to identify; resolve documented state bugs; and introduce challenges with increasing difficulty. Duplicating an already adjusted object was also suggested by the tutor. These are proposed improvements, rather than verified additions to the demonstrated prototype.
+
+## Key Learning
+
+Spatial manipulation still requires explicit guidance. The project showed why designers need to test the connection between users' expectations and controller behaviour, rather than assume that a physical-looking interaction will explain itself.
+
+## Supporting Materials
+
+- [Testing plan](docs/TestingPlan.md)
+- [Final evaluation report](docs/final-evaluation-report.md)
+- [Participant records](docs/README.md)
+- [Evidence review and reporting limits](docs/evidence-review.md)
+
+The full walkthrough recording accompanies the project separately.
 
 ---
 
@@ -484,10 +484,8 @@ I try to use research and testing to understand not only whether an interaction 
 
 # Contact
 
-**Email:** YOUR_EMAIL
-**LinkedIn:** [LinkedIn Profile →](LINKEDIN_LINK)
-**GitHub:** [GitHub Profile →](GITHUB_PROFILE_LINK)
-**Portfolio Website:** [Website →](PORTFOLIO_WEBSITE_LINK)
+**Email:** arthur.zhouzr@gmail.com  
+**LinkedIn:** [LinkedIn Profile](http://www.linkedin.com/in/zirui-zhou-3b5752399)
 
 ---
 
