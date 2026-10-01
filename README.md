@@ -163,80 +163,101 @@ This project strengthened my understanding of designing for **uncertainty, vulne
 
 ---
 
-# 03 — The Witch's Puppet - Interactive Carnival Installation
+# 03 - The Witch’s Puppet — A Cooperative Physical Computing Game
 
-**Type:** Physical Computing / Tangible Interaction / Interactive Installation
-**Role:** Interaction Design / Physical Prototyping / User Research
-**Tools:** Arduino / ESP32 / Sensors / Servos / [Other Technologies]
-**Status:** Prototype / Working Prototype
+**Type:** Physical Computing / Haptic Interaction / Cooperative Carnival Game  
+**Role:** Physical Interaction Design / Hardware Prototyping / Embedded Programming  
+**Tools:** ESP32, Arduino Uno, ESP-NOW, Ultrasonic Sensors, Hall Sensors, Vibration Motors, Servo Motors, 3D Printing  
+**Status:** Working prototype exhibited and tested with participants
 
 ### Overview
 
-This project explores interaction through a **physical and embodied interface**, combining sensors, actuators, and human movement to create an interactive installation.
+The Witch’s Puppet is a two-player carnival game exploring cooperation through haptic communication and information asymmetry.
 
-Rather than interacting with a conventional screen-based interface, users engage with the system through physical actions and environmental feedback.
+One player acts as the witch, who can see the game field but remains confined to a cage. The other acts as the puppet, whose sight and hearing are restricted but who can move around the field.
+
+Using a six-button controller, the witch sends vibration signals to the puppet’s wearable system. The players must establish a shared understanding of these signals to navigate the space, avoid traps, and collect three keys to unlock the cage.
+
+When the puppet triggers a trap, a motor-driven mechanism punishes the witch. This makes the person giving instructions bear the consequences of their guidance.
 
 ### Design Goal
 
-The project explores how physical objects and responsive environments can communicate system states and support interaction through:
+Explore how players develop communication and cooperation when they have different abilities to perceive and act within the same environment.
 
-* movement;
-* physical feedback;
-* spatial interaction;
-* collaborative actions;
-* and real-time system responses.
+The experience focuses on:
+
+- establishing a shared communication system through vibration;
+- coordinating movement with limited sensory information;
+- adapting to another player’s interpretation of signals;
+- sharing responsibility for navigation and mistakes;
+- creating an engaging cooperative carnival experience.
 
 ### Interaction Flow
 
-User Action
-↓
-Sensor Input
-↓
-System Processing
-↓
-Physical / Visual Feedback
-↓
-User Response
-↓
-Continuous Interaction
+1. The players discuss their strategy and test the vibration mappings.
+2. The witch presses controller buttons to send wireless signals.
+3. Vibration motors on the puppet’s wearable system communicate movement instructions.
+4. The puppet follows the signals to navigate the field and collect keys.
+5. Ultrasonic traps detect nearby movement and activate the witch’s punishment mechanism.
+6. The puppet places each key into its corresponding slot.
+7. Hall sensors detect the correctly placed keys.
+8. Once all three keys are in place, a servo releases the cage lock.
+
+The puppet can carry only one key at a time. The game has no time limit, allowing players to develop their communication through practice.
 
 ### Key Interaction Concepts
 
-* Tangible interaction
-* Physical feedback
-* Sensor-based interaction
-* Real-time response
-* Spatial interaction
-* [Collaborative interaction, if applicable]
+- **Information asymmetry:** The witch can observe the field but cannot navigate it, while the puppet can move but lacks direct visual and auditory information.
+- **Haptic communication:** Players translate button presses and body-based vibration signals into a shared movement vocabulary.
+- **Cooperative navigation:** Successful movement depends on both players adapting to one another.
+- **Shared consequences:** Triggering a trap affects the player providing guidance.
+- **Physical state feedback:** LEDs, motors, key slots, and the cage lock communicate events and progress.
 
 ### Technical Implementation
 
-* Arduino / ESP32
-* Distance / proximity sensors
-* Servo motors / actuators
-* Wireless communication
-* [Other hardware]
-* [Software / communication protocol]
+The final team prototype combined several connected subsystems:
+
+- **Wireless control and wearable feedback:** A six-button controller sends ESP-NOW messages to six wearable ESP32 modules, each connected to a vibration motor.
+- **Proximity traps:** Four ESP32-based traps use ultrasonic sensors to detect nearby objects and transmit trigger events.
+- **Punishment mechanism:** A receiving ESP32 activates a motor-driven mechanism when a trap is triggered.
+- **Key detection and cage release:** An Arduino Uno and three Hall sensors detect magnets in the keys. Correct placement of all three keys activates the cage-lock servo.
+- **Physical fabrication:** 3D-printed enclosures protect and position the trap electronics.
+
+ESP-NOW enables direct communication between ESP32 modules without requiring a shared Wi-Fi network.
 
 ### My Contribution
 
-* Interaction concept
-* Physical interaction design
-* Hardware prototyping
-* Sensor integration
-* System testing
-* [Programming]
-* [User testing]
+I was responsible for the trap and punishment subsystem.
+
+My work included:
+
+- defining how traps should detect the puppet and trigger consequences for the witch;
+- exploring an initial Time-of-Flight sensing approach based on deformation of a stepping surface;
+- replacing that approach with ultrasonic proximity detection after testing physical constraints;
+- developing ESP32 sender and receiver logic using ESP-NOW;
+- integrating sensor readings, LED indicators, and motor activation;
+- designing and iterating 3D-printed enclosures to secure the electronics and wiring;
+- testing detection responsiveness and communication between the traps and punishment mechanism.
+
+### Evaluation and Iteration
+
+The trap design changed substantially during prototyping. The initial stepping-surface concept was difficult to conceal while providing sufficient space and protection for the electronics. Ultrasonic proximity sensing allowed traps to be positioned beside the player’s path.
+
+The enclosure was also revised after the first version allowed components to move inside it. A second version used measured compartments to hold the breadboard, ESP32, and cables more securely.
+
+The complete game was tested during an exhibition with participants of different ages. Observations focused on communication, cooperation, and task completion.
+
+Most groups completed the game within ten minutes. Longer sessions were associated with unclear signal mappings, reduced vibration perception through thick clothing, misunderstandings of the objectives, or misinterpreted instructions.
 
 ### Key Learning
 
-This project helped me understand how interaction design changes when the interface is **physical, spatial, and embodied**, and how hardware behaviour can become part of the interaction itself.
+The project showed how players can develop a shared communication system through repeated physical interaction. It also highlighted how sensing methods, enclosure geometry, clothing, and actuator behaviour directly shape the experience.
 
-### Links
+For my subsystem, prototyping helped connect the intended gameplay behaviour with practical requirements for detection, wireless communication, and physical construction.
 
-* [Full Project / Case Study →](PROJECT_REPOSITORY_LINK)
-* [Demo Video →](VIDEO_LINK)
-* [Technical Documentation →](DOCUMENTATION_LINK)
+### Demo
+
+[Watch the project demonstration](https://www.youtube.com/watch?v=2GjQerEt0JA)
 
 ---
 
