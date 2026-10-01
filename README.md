@@ -25,7 +25,7 @@ I am particularly interested in how interaction design can respond to **social b
 
 # Selected Projects
 
-# 01 — Pally — Discord Bot for Better Social Gameplay
+## 01 — Pally — Discord Bot for Better Social Gameplay
 
 **Type:** Team-based interaction design project  
 **Role:** UX research and interaction design  
@@ -74,7 +74,7 @@ The project shifted from treating prolonged play as an individual self-control p
 
 ---
 
-# 02 — SqueezeCare: Support for People Living Alone When They Are Unwell
+## 02 — SqueezeCare: Support for People Living Alone When They Are Unwell
 
 **Type:** UX Research / Healthcare Interaction / Service Design
 **Role:** User Research / Interaction Design / Concept Development
@@ -163,7 +163,7 @@ This project strengthened my understanding of designing for **uncertainty, vulne
 
 ---
 
-# 03 - The Witch’s Puppet — A Cooperative Physical Computing Game
+## 03 - The Witch’s Puppet — A Cooperative Physical Computing Game
 
 **Type:** Physical Computing / Haptic Interaction / Cooperative Carnival Game  
 **Role:** Physical Interaction Design / Hardware Prototyping / Embedded Programming  
@@ -261,81 +261,70 @@ For my subsystem, prototyping helped connect the intended gameplay behaviour wit
 
 ---
 
-# 04 — Cultural Heritage Interactive Website
+## 04 — Cultural Heritage Interactive Website
 
-**Type:** Web Interaction / UX Design / Information Design
+**Type:** Web Interaction / Digital Heritage / Information Design
 **Role:** Interaction Design / UX / Front-end Development
-**Tools:** HTML / CSS / JavaScript / MockAPI / UQCloud Chat / [Other Tools]
-**Status:** Completed Prototype
+**Tools:** HTML / CSS / JavaScript / REST APIs / Fetch / FormData / Live Server  
+**Status:** Front-end prototype with external API integrations  
 
 ### Overview
 
-This project is an interactive web experience designed to communicate **Chinese cultural heritage** through an engaging digital interface.
+An interactive website that presents Chinese cultural heritage through artifact collections, geographic exploration, storytelling, and community participation. The project brings together content about the Sanxingdui archaeological site, the Terracotta Army, and the Mogao Grottoes.  
 
-The project explores how visual design, interaction, information structure, and accessibility can work together to make cultural content easier to explore.
+The experience includes a virtual museum, an image-based exploration map, a detailed Mogao Grottoes page, and an API-backed cultural discussion forum.
 
 ### Design Goal
 
-The project aims to transform cultural information from primarily static content into a more interactive experience.
+Make cultural content easier to explore through complementary entry points: objects, places, and stories. The design also provides a space for visitors to contribute to cultural discussion.  
 
 ### Design Process
 
-Research
-↓
-Content Analysis
-↓
-Information Architecture
-↓
-Interaction Design
-↓
-Visual Design
-↓
-Web Prototype
-↓
-Accessibility Evaluation
-↓
-Iteration
+- Used documented personas to identify needs around artifact exploration, cultural learning, and sharing findings.
+- Organised the site into a visitor homepage, virtual museum, exploration map, cultural showcase, and community area.
+- Developed and revised page layouts and interactive components through implementation testing.
+- Documented accessibility findings and revised typography, colour choices, and responsive layouts.
 
-### Key Design Considerations
+## Core Experiences
 
-* Information hierarchy
-* Interactive exploration
-* Visual storytelling
-* Cultural representation
-* Accessibility
-* WCAG considerations
-* Responsive interaction
+| Experience | Implemented interaction |
+| --- | --- |
+| Virtual museum | Switch between three cultural collections and open enlarged artifact images. |
+| Exploration map | Select one of three markers on a China map to read a short site introduction. |
+| Cultural storytelling | Read a detailed Mogao Grottoes page, including the Nine-Colored Deer story and Cave 17. |
+| Community forum | Submit a post, retrieve existing posts, and manually refresh discussions through an external API. |
+| Community participation | Submit contact details, a message, and an optional photo through a community join form. |
 
-### Technical Implementation
+## Technical Implementation
 
-* HTML
-* CSS
-* JavaScript
-* API integration
-* [UQCloud Chat]
-* [MockAPI]
-* WCAG accessibility considerations
+Built with HTML, CSS, and vanilla JavaScript. CSS is separated into shared foundations, reusable components, and page-specific styles. JavaScript manages category switching, image enlargement, map popups, and form interactions.
 
-### My Contribution
+The forum and community form use course-provided REST endpoints through Fetch and FormData. They provide submission feedback and handle request failures. The repository contains the front end; the API service is hosted separately.
 
-* UX / interaction design
-* Information architecture
-* Visual design
-* Front-end implementation
-* Accessibility considerations
-* [User testing]
+## My Contribution
 
-### Key Learning
+- Defined the information structure and page navigation from persona-based needs.
+- Designed the visual hierarchy and interaction flows for cultural browsing and community participation.
+- Implemented the front-end pages and their interactive components.
+- Integrated external APIs for forum posts and community submissions.
+- Documented accessibility issues and iterated the interface during development.
 
-This project strengthened my understanding of how **content, visual communication, interaction, and accessibility** need to work together when designing information-rich interactive experiences.
+AI-assisted content, translation, and code support are acknowledged in the project's accompanying documentation. Generated material was adapted and reviewed as part of the implementation process.
 
-### Links
+## Accessibility and Prototype Scope
 
-* [Full Project / Case Study →](PROJECT_REPOSITORY_LINK)
-* [Live Website →](LIVE_WEBSITE_LINK)](https://arthur-arcadia.github.io/Cultural-Heritage-Website-Showcase/)
-* [GitHub Repository →](PROJECT_REPOSITORY_LINK)
+The implementation includes responsive styles, image descriptions, labelled form fields, and navigation aids. An accessibility audit is documented, but a completed post-revision audit is not provided. Further work is needed on keyboard interaction and consistent accessibility across pages.
 
----
+The detailed cultural showcase currently covers Mogao Grottoes. Links from the other cultural cards and map markers also lead to that page. The community join form does not implement account authentication; event and artisan-product cards are illustrative content. The site does not provide a complete bilingual experience.
+
+## Key Learning
+
+The project developed my ability to connect cultural information with web interaction design, implement API-backed participation, and use accessibility findings to guide interface revisions. It also highlighted the need to align navigation labels and content coverage with the capabilities of a working prototype.
+
+## Project Link
+
+[Source code](https://github.com/Arthur-Arcadia/Cultural-Heritage-Website-Showcase)
+[Website Demo](https://arthur-arcadia.github.io/Cultural-Heritage-Website-Showcase/)
 
 # 05 — XR Modelling Tool
 
