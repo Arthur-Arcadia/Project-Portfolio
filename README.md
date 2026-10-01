@@ -323,8 +323,8 @@ The project developed my ability to connect cultural information with web intera
 
 ## Project Link
 
-[Source code](https://github.com/Arthur-Arcadia/Cultural-Heritage-Website-Showcase)
-[Website Demo](https://arthur-arcadia.github.io/Cultural-Heritage-Website-Showcase/)
+- [Source code](https://github.com/Arthur-Arcadia/Cultural-Heritage-Website-Showcase)  
+- [Website Demo](https://arthur-arcadia.github.io/Cultural-Heritage-Website-Showcase/)  
 
 # 05 — XR Modelling Tool
 
