@@ -67,10 +67,9 @@ The team also prepared simulated gaming scenarios to compare group interactions 
 
 The project shifted from treating prolonged play as an individual self-control problem to examining how group relationships and social influence shape players’ choices. Pally explores playful ways to support group interaction; the planned evaluation will examine how these interactions affect the experience.
 
-### Links
+### Project Links
 
-- [Project repository](#)
-- [Prototype / case study](#)
+- [Project repository](https://github.com/Arthur-Arcadia/Pally)
 
 ---
 
@@ -155,7 +154,7 @@ User Testing
 
 This project strengthened my understanding of designing for **uncertainty, vulnerable situations, and context-dependent decision-making**, where the system should support users without replacing professional judgement.
 
-### Links
+### Project Links
 
 * [Full Project / Case Study →](PROJECT_REPOSITORY_LINK)
 * [Prototype →](PROTOTYPE_LINK)
@@ -255,7 +254,7 @@ The project showed how players can develop a shared communication system through
 
 For my subsystem, prototyping helped connect the intended gameplay behaviour with practical requirements for detection, wireless communication, and physical construction.
 
-### Demo
+### Project Demo
 
 [Watch the project demonstration](https://www.youtube.com/watch?v=2GjQerEt0JA)
 
@@ -398,14 +397,9 @@ Replace lengthy instructions with shorter steps and progressive prompts; make co
 
 Spatial manipulation still requires explicit guidance. The project showed why designers need to test the connection between users' expectations and controller behaviour, rather than assume that a physical-looking interaction will explain itself.
 
-## Supporting Materials
+## Project Link
 
-- [Testing plan](docs/TestingPlan.md)
-- [Final evaluation report](docs/final-evaluation-report.md)
-- [Participant records](docs/README.md)
-- [Evidence review and reporting limits](docs/evidence-review.md)
-
-The full walkthrough recording accompanies the project separately.
+[Github](https://github.com/Arthur-Arcadia/XR-3D-Modeling-Tool)
 
 ---
 
