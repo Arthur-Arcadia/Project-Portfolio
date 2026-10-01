@@ -25,78 +25,52 @@ I am particularly interested in how interaction design can respond to **social b
 
 # Selected Projects
 
-## 01 — Pally: Discord Bot for Better Social Gameplay
+# 01 — Pally — Discord Bot for Better Social Gameplay
 
-**Type:** Social Computing / HCI / Interaction Design
-**Role:** UX Research / Interaction Design / Prototyping
-**Tools:** Figma / Discord / [JavaScript or other technologies]
-**Status:** Prototype / User Testing
+**Type:** Team-based interaction design project  
+**Role:** UX research and interaction design  
+**Tools:** Discord, Figma, GitHub  
+**Status:** Interactive prototype
 
 ### Overview
 
-Pally is a Discord-based interactive system exploring **social compliance in group gaming**.
-
-The project focuses on situations where players may want to stop playing but hesitate because their friends or teammates want to continue. Rather than treating the problem as an individual self-control issue, the project explores how interaction design can change the way social decisions are made within gaming groups.
+Pally is a Discord bot prototype for multiplayer gaming groups. It provides a control panel with three tools: Random Pick, Trait Picker, and Excuse Generator. When the bot is added to a server, it posts the panel; users can also bring it up with `/tools`.
 
 ### Problem
 
-Social gamers may experience tension between:
+Players may hesitate to express their preferences during social gaming because they do not want to disappoint teammates, disrupt the group atmosphere, or appear antisocial. The project initially explored game addiction, but the team later refined its focus to **social compliance and social power dynamics** in multiplayer groups.
 
-* wanting to stop playing;
-* maintaining relationships with teammates;
-* avoiding disappointing others;
-* and continuing because the group expects them to stay.
+Pally explores playful interactions around group selection, sharing impressions, and finding ways to leave or pause a session. It is not a clinical intervention or a tool for diagnosing problematic gaming.
 
 ### Design Opportunity
 
-How might an interactive system support players in navigating social pressure and group decision-making without simply forcing them to stop playing?
+Explore how lightweight Discord interactions can support social gaming groups when members feel uncomfortable expressing preferences directly.
 
 ### Design Process
 
-Research
-↓
-Interviews
-↓
-Affinity Mapping
-↓
-Problem Definition
-↓
-Design Opportunities
-↓
-Concept Development
-↓
-Prototype
-↓
-User Testing
-↓
-Iteration
+The team reviewed relevant research, conducted two rounds of player interviews, and used affinity mapping to identify recurring issues around group decisions, post-game expression, and leaving a session. These findings informed the feature concepts and prototype flows.
+
+The team also prepared simulated gaming scenarios to compare group interactions with and without Pally. The planned evaluation uses Groupware Heuristics and follow-up interviews to examine collaboration and social dynamics.
 
 ### Key Interaction Concepts
 
-* **Random Pick** — redistributes small group decisions.
-* **Trait Picker** — creates playful peer evaluation after a game.
-* **Excuse Generator** — provides an alternative way to communicate the desire to leave a gaming session.
+- **Random Pick:** After a user clicks the button, the bot posts a prompt visible to the server, runs a short rolling animation, and selects a name from the current voice-channel member list. The selected member’s name and description are then displayed.
+- **Trait Picker:** The bot randomly selects a member in the voice channel and introduces the activity. Voice-channel members receive private messages with word options to submit. After submissions, a prompt appears and the bot posts an AI-written summary for everyone to see.
+- **Excuse Generator:** The bot privately presents categories for the user to choose from. It then generates a copyable excuse; the user can select “Try another” to replace it with a new one.
 
 ### My Contribution
-
-* User research
-* Interview analysis
-* Problem framing
-* Interaction design
-* Feature ideation
-* Prototyping
-* User testing
-* [Technical implementation, if applicable]
+- Analyzed the target audience, stakeholder relationships, and existing solutions for the Project pitch.  
+- Communicate actively with the teaching team, and help the team narrowed the scope of the project.  
+- COntributed to the team's exploration of social pressures in multiplayer aming and possible design responses.  
 
 ### Key Learning
 
-This project helped me explore how interaction design can address **social relationships and group behaviour**, rather than focusing only on individual usability or efficiency.
+The project shifted from treating prolonged play as an individual self-control problem to examining how group relationships and social influence shape players’ choices. Pally explores playful ways to support group interaction; the planned evaluation will examine how these interactions affect the experience.
 
 ### Links
 
-* [Full Project / Case Study →](PROJECT_REPOSITORY_LINK)
-* [Prototype →](PROTOTYPE_LINK)
-* [Demo →](DEMO_LINK)
+- [Project repository](#)
+- [Prototype / case study](#)
 
 ---
 
