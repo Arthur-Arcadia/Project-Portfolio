@@ -75,90 +75,61 @@ The project shifted from treating prolonged play as an individual self-control p
 
 ## 02 — SqueezeCare: Support for People Living Alone When They Are Unwell
 
-**Type:** UX Research / Healthcare Interaction / Service Design
-**Role:** User Research / Interaction Design / Concept Development
-**Tools:** Figma / [Other Tools]
-**Status:** Research / Concept / Prototype
+**Type:** UX Research / Interaction Design / Physical–Digital Concept Design  
+**Role:** User Research / Interaction Design / Concept Development  
+**Tools:** Figma / Google Forms / Interview Transcription / Sketching  
+**Status:** Research and concept proposal; no working interactive prototype
 
-### Overview
+![Illustrative SqueezeCare concept from the team’s final report](media/concept-sketch.png)
 
-SqueezeCare explores the experience of **students and young migrants living alone in Australia when they become unwell**, particularly when they are uncertain about what to do next.
+## Overview
 
-The project focuses on the uncertainty between managing symptoms independently, contacting a trusted person, seeking professional advice, and accessing urgent care.
+SqueezeCare proposes a soft handheld companion for international young people who feel unwell while living alone in an unfamiliar environment. A deliberate squeeze would request support, while a response from another person would return through gentle tactile feedback. An optional voice interaction would help the user summarise and translate their own symptom description.
 
-### Problem
+The project developed through three rounds of research and reframing. Its final direction focuses on emotional reassurance, low-effort human connection, and communication assistance. The outcome is a documented design proposal and exhibition material, supported by interviews, questionnaires, and an exploratory study using existing physical objects.
 
-When people living alone become unwell in an unfamiliar healthcare environment, they may face uncertainty about:
+## Design Question
 
-* whether their situation requires professional help;
-* who they should contact;
-* what support is appropriate;
-* healthcare costs and access;
-* and what to do when support is unavailable, especially at night.
+How might we help international young people living alone feel supported when they feel unwell in an unfamiliar environment?
 
-### Research Focus
+Interviews revealed that difficulty seeking help extends beyond finding a service. Participants also described language uncertainty, isolation, reluctance to inconvenience others, and the effort involved in explaining their condition.
 
-The project investigates:
+## Research and Iteration
 
-* experiences of being unwell while living alone;
-* decision-making under uncertainty;
-* barriers to accessing healthcare;
-* trust and reliance on digital health information;
-* differences between daytime and nighttime situations.
+| Stage | Main activities | Design development |
+| --- | --- | --- |
+| Iteration 1 | Brainstorming, background reading, two preliminary interviews | Explored night-time medical access, safety, and privacy. Early frameworks were too broad and insufficiently connected to evidence. |
+| Iteration 2 | Team interviews with 18 participants, open coding and affinity mapping, a 37-response survey | Examined unfamiliar healthcare systems, communication barriers, support gaps, and technology/privacy preferences. |
+| Iteration 3 | A 19-response support-needs survey, exploratory object comparison, literature review, further ideation | Reframed the concept around reassurance, lightweight contact, and symptom communication. |
 
-### Design Opportunity
+In the exploratory interaction study, five of seven usable sessions favoured a squeezable object as the first choice, and all seven included one in their top three. This informed the proposed material and interaction, without establishing the effectiveness of the finished concept.
 
-How might an interactive system reduce uncertainty and help people make informed next-step decisions when they are unwell and alone?
+## Proposed Experience
 
-### Design Process
+- A light squeeze would initiate a support signal to a user-selected recipient.
+- A supporter could squeeze back, with the response represented through vibration and potentially light.
+- Squeeze rhythm, intensity, and duration would shape the proposed tactile response.
+- A longer squeeze would activate guided voice input for a translated symptom summary on the user’s phone.
 
-Background Research
-↓
-Interview Planning
-↓
-User Interviews
-↓
-Thematic / Affinity Analysis
-↓
-User Needs
-↓
-Design Opportunities
-↓
-Concept Development
-↓
-Prototype
-↓
-User Testing
+These interactions remain design proposals. Pressure sensing, connected devices, haptic output, and translation were not implemented as a functioning system.
 
-### Key Design Considerations
+## My Contribution
 
-* Uncertainty rather than diagnosis
-* Clear next-step guidance
-* Human and professional support
-* Trust and privacy
-* Healthcare accessibility
-* Daytime vs. nighttime contexts
-* Avoiding over-reliance on AI
+I conducted three interviews within the team’s larger study and helped develop both questionnaires. My contributions included research aims, question sequencing, answer options, participant choice, and the focus on language barriers and symptom expression.
 
-### My Contribution
+I independently designed and led the object-preference study, using video and think-aloud prompts to understand why participants selected particular forms and interactions. I also developed the early conceptual models and areas of investigation, recorded and analysed team/tutor discussions, reviewed literature, and synthesised solution-exploration findings.
 
-* Interview protocol development
-* User research
-* Interview analysis
-* User needs identification
-* Problem framing
-* Interaction design
-* [Prototyping / testing]
+For the exhibition, I prepared the Iteration 2 research panels. The final SqueezeCare product poster is a team output; my personal portfolio attributes its creation to another team member.
 
-### Key Learning
+## Outcome and Learning
 
-This project strengthened my understanding of designing for **uncertainty, vulnerable situations, and context-dependent decision-making**, where the system should support users without replacing professional judgement.
+The project produced a research-informed concept, proposed requirements, interaction flows, and exhibition materials. It did not produce a working connected device or establish clinical or wellbeing outcomes.
 
-### Project Links
+My main learning was how to connect a conceptual model to both evidence and a concrete next research activity. Earlier versions either introduced solutions too soon or repeated the problem without advancing it. Iteration 3 provided a clearer relationship between observed needs, interaction qualities, and unresolved questions.
 
-* [Full Project / Case Study →](PROJECT_REPOSITORY_LINK)
-* [Prototype →](PROTOTYPE_LINK)
-* [Research Documentation →](RESEARCH_LINK)
+## Case Study Links
+[Case Study](https://github.com/Arthur-Arcadia/Squeezecare/blob/main/CASE-STUDY.md)
+[Github](https://github.com/Arthur-Arcadia/Squeezecare/tree/main)
 
 ---
 
