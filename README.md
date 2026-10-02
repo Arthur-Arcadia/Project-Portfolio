@@ -388,7 +388,7 @@ Spatial manipulation still requires explicit guidance. The project showed why de
 ### Project Link
 
 [Github](https://github.com/Arthur-Arcadia/XR-3D-Modeling-Tool)
-
+[Demo Video](https://drive.google.com/file/d/1L0Ycil7Cyla3FEjFKskH3Xfstvm3tWH1/view?usp=sharing)
 ---
 
 ## Skills & Methods
