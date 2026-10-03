@@ -14,7 +14,7 @@ Explores social pressure in multiplayer gaming through playful tools for group d
 
 **Status:** Interactive prototype
 
-[Github LInk](https://github.com/Arthur-Arcadia/Pally)
+[GitHub LInk](https://github.com/Arthur-Arcadia/Pally)
 
 ---
 
@@ -28,7 +28,8 @@ A proposed handheld companion using squeeze-based signals to support reassurance
 
 **Status:** Research-informed concept proposal
 
-[Case Study](https://github.com/Arthur-Arcadia/Squeezecare/blob/main/CASE-STUDY.md) · [Repository](https://github.com/Arthur-Arcadia/Squeezecare/tree/main)
+[Case Study](https://github.com/Arthur-Arcadia/Squeezecare/blob/main/CASE-STUDY.md) 
+[GitHub Link](https://github.com/Arthur-Arcadia/Squeezecare/tree/main)
 
 ---
 
@@ -56,7 +57,8 @@ A website combining artifact collections, map-based exploration, cultural storyt
 
 **Status:** Front-end prototype with external API integrations
 
-[Live Demo](https://arthur-arcadia.github.io/Cultural-Heritage-Website-Showcase/) · [Repository](https://github.com/Arthur-Arcadia/Cultural-Heritage-Website-Showcase)
+[Live Demo](https://arthur-arcadia.github.io/Cultural-Heritage-Website-Showcase/) 
+[GitHub Link](https://github.com/Arthur-Arcadia/Cultural-Heritage-Website-Showcase)
 
 ---
 
@@ -70,12 +72,13 @@ A VR workshop for creating and manipulating primitive shapes through direct inte
 
 **Status:** Evaluated VR prototype
 
-[Demo Video](https://drive.google.com/file/d/1L0Ycil7Cyla3FEjFKskH3Xfstvm3tWH1/view?usp=sharing) · [Repository](https://github.com/Arthur-Arcadia/XR-3D-Modeling-Tool)
+[Demo Video](https://drive.google.com/file/d/1L0Ycil7Cyla3FEjFKskH3Xfstvm3tWH1/view?usp=sharing) 
+[GitHub Link](https://github.com/Arthur-Arcadia/XR-3D-Modeling-Tool)
 
 ---
 
-### 06 — XR 3D Modelling Tool
-*A Controller-Based VR Modelling Workshop*
+### 06 — Student Well Being
+*A Front-End Well-Being Service Demo for UQ Students*
 
 A student wellbeing prototype connecting self-help resources with clearer information about professional support.  
 
@@ -84,7 +87,7 @@ A student wellbeing prototype connecting self-help resources with clearer inform
 
 **Status:** Completed academic MVP · evaluated through user testing
 
-[Github Link](https://drive.google.com/file/d/1L0Ycil7Cyla3FEjFKskH3Xfstvm3tWH1/view?usp=sharing) · [Repository](https://github.com/Arthur-Arcadia/XR-3D-Modeling-Tool)
+[GitHub Link](https://github.com/Arthur-Arcadia/Student-Well-Being)
 
 ---
 
