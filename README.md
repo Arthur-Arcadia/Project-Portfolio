@@ -1,480 +1,100 @@
 # Zirui Zhou (Arthur) — Interaction Design Portfolio
 
-Master of Interaction Design student at The University of Queensland.
-
-I am interested in **Human-Computer Interaction (HCI), Interaction Design, UX Research, and Interactive Systems**. My projects explore how people interact with digital, physical, and spatial systems through research, prototyping, and iterative design.
-
-## About Me
-
-I am an Interaction Design student with an interest in designing interactive experiences that connect **people, technology, and context**.
-
-My work typically combines:
-
-- User research and qualitative methods
-- Interaction design and prototyping
-- Human-Computer Interaction
-- Social and collaborative interaction
-- Physical computing
-- Web-based interactive experiences
-- Unity and XR
-- User testing and design iteration
-
-I am particularly interested in how interaction design can respond to **social behaviour, real-world contexts, and the relationship between people and interactive systems**.
-
----
+Master of Interaction Design student at The University of Queensland, focused on UX research, interaction design, and prototyping across web, physical, and XR experiences.
 
 ## Selected Projects
 
-## 01 — Pally
-
+### 01 — Pally
 *A Discord Bot for Better Social Gameplay*
 
-**Type:** Social Computing / Interaction Design / Groupware  
-**Roles:** UX Research / Interaction Design  
-**Tools:** Discord / Figma / GitHub  
+Explores social pressure in multiplayer gaming through playful tools for group decisions, anonymous feedback, and leaving a session.
+
+- Analysed player needs, stakeholder relationships, and existing solutions to inform the project direction.
+- Helped refine the focus from individual self-control to social compliance and group power dynamics.
+
 **Status:** Interactive prototype
 
-### Overview
-
-Pally is a Discord bot prototype for multiplayer gaming groups. Users open a three-button panel with `/social` in the current text channel; the panel is visible only to the person who invokes it. The tools are Random Picker, Portrait (Trait Picker), and Funny Exit (Excuse Generator). Random Picker and Portrait are restricted to members of the bound game voice channel, with group interactions taking place in the designated social text channel.
-
-### Design Goal
-
-#### Problem
-
-Players may hesitate to express their preferences during social gaming because they do not want to disappoint teammates, disrupt the group atmosphere, or appear antisocial. The project initially explored game addiction, but the team later refined its focus to **social compliance and social power dynamics** in multiplayer groups.
-
-Pally explores playful interactions around group selection, sharing impressions, and finding ways to leave or pause a session. It is not a clinical intervention or a tool for diagnosing problematic gaming.
-
-#### Design Opportunity
-
-Explore how lightweight Discord interactions can support social gaming groups when members feel uncomfortable expressing preferences directly.
-
-### Design Process
-
-The team reviewed relevant research, conducted two rounds of player interviews, and used affinity mapping to identify recurring issues around group decisions, post-game expression, and leaving a session. These findings informed the feature concepts and prototype flows.
-
-The team also prepared simulated gaming scenarios to compare group interactions with and without Pally. The planned evaluation uses Groupware Heuristics and follow-up interviews to examine collaboration and social dynamics.
-
-### Key Interactions
-
-- **Random Picker — Power to Decide:** Selects a voice-channel member through fair rotation. Only the selected member can choose `I'll Invite Someone` to complete the round or `Pass / Draw Again` to draw again. The round ends when all eligible members have passed or left, or when no response is received within 60 seconds. The voice-channel member list stays synchronised; new arrivals participate from the next round.
-- **Portrait (Trait Picker) — Power to Evaluate:** Selects a voice-channel member for anonymous group feedback. Each participating member selects one word through a private panel; the click submits the choice and closes the controls. The result appears when everyone has submitted or after a maximum of 10 seconds, with missing responses treated as blank. A local English template combines the input into a shared portrait without using external AI.
-- **Funny Exit (Excuse Generator) — Power to Say No:** Offers a private preview of a humorous English excuse. The user can refresh the suggestion, send it to the channel, or cancel. The excuse becomes public only when the user chooses to send it.
-
-### My Contribution
-
-- Analysed the target audience, stakeholder relationships, and existing solutions for the project pitch.
-- Communicated actively with the teaching team and helped narrow the project scope.
-- Contributed to the team’s exploration of social pressures in multiplayer gaming and possible design responses.
-
-### Key Learning
-
-The project shifted from treating prolonged play as an individual self-control problem to examining how group relationships and social influence shape players’ choices. Pally explores playful ways to support group interaction; the planned evaluation will examine how these interactions affect the experience.
-
-### Project Links
-
-- [Project repository](https://github.com/Arthur-Arcadia/Pally)
+[Github LInk](https://github.com/Arthur-Arcadia/Pally)
 
 ---
 
-## 02 — SqueezeCare
-
+### 02 — SqueezeCare
 *Support for People Living Alone When They Are Unwell*
 
-**Type:** UX Research / Interaction Design / Physical–Digital Concept Design  
-**Roles:** User Research / Interaction Design / Concept Development  
-**Tools:** Figma / Google Forms  
-**Status:** Research and concept proposal; no working interactive prototype  
+A proposed handheld companion using squeeze-based signals to support reassurance, human connection, and symptom communication.
 
-![Illustrative SqueezeCare concept from the team’s final report](media/concept-sketch.png)
+- Conducted interviews and helped design questionnaires exploring isolation, language barriers, and support needs.
+- Independently designed and led an object-preference study to inform the proposed physical interaction.
 
-### Overview
+**Status:** Research-informed concept proposal
 
-SqueezeCare proposes a soft handheld companion for international young people who feel unwell while living alone in an unfamiliar environment. A deliberate squeeze would request support, while a response from another person would return through gentle tactile feedback. An optional voice interaction would help the user summarise and translate their own symptom description.
-
-The project developed through three rounds of research and reframing. Its final direction focuses on emotional reassurance, low-effort human connection, and communication assistance. The outcome is a documented design proposal and exhibition material, supported by interviews, questionnaires, and an exploratory study using existing physical objects.
-
-### Design Goal
-
-How might we help international young people living alone feel supported when they feel unwell in an unfamiliar environment?
-
-Interviews revealed that difficulty seeking help extends beyond finding a service. Participants also described language uncertainty, isolation, reluctance to inconvenience others, and the effort involved in explaining their condition.
-
-### Design Process
-
-| Stage | Main activities | Design development |
-| --- | --- | --- |
-| Iteration 1 | Brainstorming, background reading, two preliminary interviews | Explored night-time medical access, safety, and privacy. Early frameworks were too broad and insufficiently connected to evidence. |
-| Iteration 2 | Team interviews with 18 participants, open coding and affinity mapping, a 37-response survey | Examined unfamiliar healthcare systems, communication barriers, support gaps, and technology/privacy preferences. |
-| Iteration 3 | A 19-response support-needs survey, exploratory object comparison, literature review, further ideation | Reframed the concept around reassurance, lightweight contact, and symptom communication. |
-
-In the exploratory interaction study, five of seven usable sessions favoured a squeezable object as the first choice, and all seven included one in their top three. This informed the proposed material and interaction, without establishing the effectiveness of the finished concept.
-
-### Key Interactions
-
-- A light squeeze would initiate a support signal to a user-selected recipient.
-- A supporter could squeeze back, with the response represented through vibration and potentially light.
-- Squeeze rhythm, intensity, and duration would shape the proposed tactile response.
-- A longer squeeze would activate guided voice input for a translated symptom summary on the user’s phone.
-
-These interactions remain design proposals. Pressure sensing, connected devices, haptic output, and translation were not implemented as a functioning system.
-
-### My Contribution
-
-I conducted three interviews within the team’s larger study and helped develop both questionnaires. My contributions included research aims, question sequencing, answer options, participant choice, and the focus on language barriers and symptom expression.
-
-I independently designed and led the object-preference study, using video and think-aloud prompts to understand why participants selected particular forms and interactions. I also developed the early conceptual models and areas of investigation, recorded and analysed team/tutor discussions, reviewed literature, and synthesised solution-exploration findings.
-
-For the exhibition, I prepared the Iteration 2 research panels. The final SqueezeCare product poster is a team output; my personal portfolio attributes its creation to another team member.
-
-### Key Learning
-
-The project produced a research-informed concept, proposed requirements, interaction flows, and exhibition materials. It did not produce a working connected device or establish clinical or wellbeing outcomes.
-
-My main learning was how to connect a conceptual model to both evidence and a concrete next research activity. Earlier versions either introduced solutions too soon or repeated the problem without advancing it. Iteration 3 provided a clearer relationship between observed needs, interaction qualities, and unresolved questions.
-
-### Case Study Links
-
-[Case Study](https://github.com/Arthur-Arcadia/Squeezecare/blob/main/CASE-STUDY.md)
-[Github](https://github.com/Arthur-Arcadia/Squeezecare/tree/main)
+[Case Study](https://github.com/Arthur-Arcadia/Squeezecare/blob/main/CASE-STUDY.md) · [Repository](https://github.com/Arthur-Arcadia/Squeezecare/tree/main)
 
 ---
 
-## 03 — The Witch’s Puppet
-
+### 03 — The Witch’s Puppet
 *A Cooperative Physical Computing Game*
 
-**Type:** Physical Computing / Haptic Interaction / Cooperative Carnival Game  
-**Roles:** Physical Interaction Design / Hardware Prototyping / Embedded Programming  
-**Tools:** ESP32 / Arduino Uno / ESP-NOW / Ultrasonic Sensors / Hall Sensors / Vibration Motors / Servo Motors / 3D Printing  
+A two-player game where one player guides another through vibration signals, exploring cooperation and shared responsibility.
+
+- Developed the trap and punishment subsystem using ultrasonic sensing, ESP32, and ESP-NOW wireless communication.
+- Iterated 3D-printed enclosures and tested sensor-to-motor responses to support the intended gameplay.
+
 **Status:** Working prototype exhibited and tested with participants
 
-### Overview
-
-The Witch’s Puppet is a two-player carnival game exploring cooperation through haptic communication and information asymmetry.
-
-One player acts as the witch, who can see the game field but remains confined to a cage. The other acts as the puppet, whose sight and hearing are restricted but who can move around the field.
-
-Using a six-button controller, the witch sends vibration signals to the puppet’s wearable system. The players must establish a shared understanding of these signals to navigate the space, avoid traps, and collect three keys to unlock the cage.
-
-When the puppet triggers a trap, a motor-driven mechanism punishes the witch. This makes the person giving instructions bear the consequences of their guidance.
-
-### Design Goal
-
-Explore how players develop communication and cooperation when they have different abilities to perceive and act within the same environment.
-
-The experience focuses on:
-
-- establishing a shared communication system through vibration;
-- coordinating movement with limited sensory information;
-- adapting to another player’s interpretation of signals;
-- sharing responsibility for navigation and mistakes;
-- creating an engaging cooperative carnival experience.
-
-### Design Process
-
-The trap design changed substantially during prototyping. The initial stepping-surface concept was difficult to conceal while providing sufficient space and protection for the electronics. Ultrasonic proximity sensing allowed traps to be positioned beside the player’s path.
-
-The enclosure was also revised after the first version allowed components to move inside it. A second version used measured compartments to hold the breadboard, ESP32, and cables more securely.
-
-The complete game was tested during an exhibition with participants of different ages. Observations focused on communication, cooperation, and task completion.
-
-Most groups completed the game within ten minutes. Longer sessions were associated with unclear signal mappings, reduced vibration perception through thick clothing, misunderstandings of the objectives, or misinterpreted instructions.
-
-### Key Interactions
-
-#### Interaction Flow
-
-1. The players discuss their strategy and test the vibration mappings.
-2. The witch presses controller buttons to send wireless signals.
-3. Vibration motors on the puppet’s wearable system communicate movement instructions.
-4. The puppet follows the signals to navigate the field and collect keys.
-5. Ultrasonic traps detect nearby movement and activate the witch’s punishment mechanism.
-6. The puppet places each key into its corresponding slot.
-7. Hall sensors detect the correctly placed keys.
-8. Once all three keys are in place, a servo releases the cage lock.
-
-The puppet can carry only one key at a time. The game has no time limit, allowing players to develop their communication through practice.
-
-#### Interaction Concepts
-
-- **Information asymmetry:** The witch can observe the field but cannot navigate it, while the puppet can move but lacks direct visual and auditory information.
-- **Haptic communication:** Players translate button presses and body-based vibration signals into a shared movement vocabulary.
-- **Cooperative navigation:** Successful movement depends on both players adapting to one another.
-- **Shared consequences:** Triggering a trap affects the player providing guidance.
-- **Physical state feedback:** LEDs, motors, key slots, and the cage lock communicate events and progress.
-
-#### Technical Implementation
-
-The final team prototype combined several connected subsystems:
-
-- **Wireless control and wearable feedback:** A six-button controller sends ESP-NOW messages to six wearable ESP32 modules, each connected to a vibration motor.
-- **Proximity traps:** Four ESP32-based traps use ultrasonic sensors to detect nearby objects and transmit trigger events.
-- **Punishment mechanism:** A receiving ESP32 activates a motor-driven mechanism when a trap is triggered.
-- **Key detection and cage release:** An Arduino Uno and three Hall sensors detect magnets in the keys. Correct placement of all three keys activates the cage-lock servo.
-- **Physical fabrication:** 3D-printed enclosures protect and position the trap electronics.
-
-ESP-NOW enables direct communication between ESP32 modules without requiring a shared Wi-Fi network.
-
-### My Contribution
-
-I was responsible for the trap and punishment subsystem.
-
-My work included:
-
-- defining how traps should detect the puppet and trigger consequences for the witch;
-- exploring an initial Time-of-Flight sensing approach based on deformation of a stepping surface;
-- replacing that approach with ultrasonic proximity detection after testing physical constraints;
-- developing ESP32 sender and receiver logic using ESP-NOW;
-- integrating sensor readings, LED indicators, and motor activation;
-- designing and iterating 3D-printed enclosures to secure the electronics and wiring;
-- testing detection responsiveness and communication between the traps and punishment mechanism.
-
-### Key Learning
-
-The project showed how players can develop a shared communication system through repeated physical interaction. It also highlighted how sensing methods, enclosure geometry, clothing, and actuator behaviour directly shape the experience.
-
-For my subsystem, prototyping helped connect the intended gameplay behaviour with practical requirements for detection, wireless communication, and physical construction.
-
-### Project Demo
-
-[Watch the project demonstration](https://www.youtube.com/watch?v=2GjQerEt0JA)
+[Demo Video](https://www.youtube.com/watch?v=2GjQerEt0JA)
 
 ---
 
-## 04 — Cultural Heritage Interactive Website
+### 04 — Cultural Heritage Interactive Website
+*Interactive Cultural Exploration & Community Participation*
 
-*An Interactive Website for Exploring Chinese Cultural Heritage*
+A website combining artifact collections, map-based exploration, cultural storytelling, and community discussion.
 
-**Type:** Web Interaction / Digital Heritage / Information Design  
-**Roles:** Interaction Design / UX / Front-end Development  
-**Tools:** HTML / CSS / JavaScript / REST APIs / Fetch / FormData / Live Server  
+- Designed the information structure and implemented interactive pages with HTML, CSS, and JavaScript.
+- Integrated REST APIs for forum posts and community submissions, and revised the interface using accessibility findings.
+
 **Status:** Front-end prototype with external API integrations
 
-### Overview
-
-An interactive website that presents Chinese cultural heritage through artifact collections, geographic exploration, storytelling, and community participation. The project brings together content about the Sanxingdui archaeological site, the Terracotta Army, and the Mogao Grottoes.  
-
-The experience includes a virtual museum, an image-based exploration map, a detailed Mogao Grottoes page, and an API-backed cultural discussion forum.
-
-### Design Goal
-
-Make cultural content easier to explore through complementary entry points: objects, places, and stories. The design also provides a space for visitors to contribute to cultural discussion.
-
-### Design Process
-
-- Used documented personas to identify needs around artifact exploration, cultural learning, and sharing findings.
-- Organised the site into a visitor homepage, virtual museum, exploration map, cultural showcase, and community area.
-- Developed and revised page layouts and interactive components through implementation testing.
-- Documented accessibility findings and revised typography, colour choices, and responsive layouts.
-
-#### Accessibility and Prototype Scope
-
-The implementation includes responsive styles, image descriptions, labelled form fields, and navigation aids. An accessibility audit is documented, but a completed post-revision audit is not provided. Further work is needed on keyboard interaction and consistent accessibility across pages.
-
-The detailed cultural showcase currently covers Mogao Grottoes. Links from the other cultural cards and map markers also lead to that page. The community join form does not implement account authentication; event and artisan-product cards are illustrative content. The site does not provide a complete bilingual experience.
-
-### Key Interactions
-
-| Experience | Implemented interaction |
-| --- | --- |
-| Virtual museum | Switch between three cultural collections and open enlarged artifact images. |
-| Exploration map | Select one of three markers on a China map to read a short site introduction. |
-| Cultural storytelling | Read a detailed Mogao Grottoes page, including the Nine-Colored Deer story and Cave 17. |
-| Community forum | Submit a post, retrieve existing posts, and manually refresh discussions through an external API. |
-| Community participation | Submit contact details, a message, and an optional photo through a community join form. |
-
-#### Technical Implementation
-
-Built with HTML, CSS, and vanilla JavaScript. CSS is separated into shared foundations, reusable components, and page-specific styles. JavaScript manages category switching, image enlargement, map popups, and form interactions.
-
-The forum and community form use course-provided REST endpoints through Fetch and FormData. They provide submission feedback and handle request failures. The repository contains the front end; the API service is hosted separately.
-
-### My Contribution
-
-- Defined the information structure and page navigation from persona-based needs.
-- Designed the visual hierarchy and interaction flows for cultural browsing and community participation.
-- Implemented the front-end pages and their interactive components.
-- Integrated external APIs for forum posts and community submissions.
-- Documented accessibility issues and iterated the interface during development.
-
-AI-assisted content, translation, and code support are acknowledged in the project's accompanying documentation. Generated material was adapted and reviewed as part of the implementation process.
-
-### Key Learning
-
-The project developed my ability to connect cultural information with web interaction design, implement API-backed participation, and use accessibility findings to guide interface revisions. It also highlighted the need to align navigation labels and content coverage with the capabilities of a working prototype.
-
-### Project Link
-
-- [Source code](https://github.com/Arthur-Arcadia/Cultural-Heritage-Website-Showcase)  
-- [Website Demo](https://arthur-arcadia.github.io/Cultural-Heritage-Website-Showcase/)
+[Live Demo](https://arthur-arcadia.github.io/Cultural-Heritage-Website-Showcase/) · [Repository](https://github.com/Arthur-Arcadia/Cultural-Heritage-Website-Showcase)
 
 ---
 
-## 05 — XR 3D Modelling Tool
-
+### 05 — XR 3D Modelling Tool
 *A Controller-Based VR Modelling Workshop*
 
-**Type:** XR / Spatial Interaction / 3D Interaction  
-**Roles:** Interaction Design / Unity Development / Prototyping / User Testing  
-**Tools:** Unity / C# / Meta XR / OpenXR / Meta Quest  
+A VR workshop for creating and manipulating primitive shapes through direct interaction and guided practice.
+
+- Developed and iterated the Unity prototype, including shape manipulation, scaling, gravity controls, and tutorials.
+- Conducted task-based evaluation and translated feedback into priorities for clearer guidance and interaction feedback.
+
 **Status:** Evaluated VR prototype
 
-### Overview
-
-A VR workshop for creating and manipulating primitive shapes through controller-based spatial interaction. Users can create shapes, move and rotate them, adjust their scale with two hands, delete them, and switch gravity on or off.
-
-The prototype combines a medieval-style workspace with three tutorial areas and an open workshop containing modelling challenges. It explores how direct manipulation and guided practice can support learning in an immersive 3D environment.
-
-![Primitive shapes in the VR workshop, captured from the walkthrough](media/workshop.png)
-
-### Design Goal
-
-Explore an alternative to screen-based 3D manipulation by letting users work with objects in surrounding space. The design focuses on helping users understand the relationship between controller actions, transformation modes, and object behaviour.
-
-During iteration, the focus shifted from immersion alone towards clearer guidance and more understandable interactions. The project investigates these goals through a working prototype; it does not establish superiority over desktop modelling software.
-
-### Design Process
-
-The final report describes three prototype iterations. Earlier testing challenged the assumption that users would understand the interactions with little guidance. The final iteration introduced dedicated tutorial areas and explanatory boards before open-ended workshop practice.
-
-The evaluation combined task timings with post-test ratings and written feedback. The report also reflects on removing think-aloud from later sessions because speaking interrupted actions and affected time measurements.
-
-#### Evaluation and Findings
-
-The final evaluation involved **four students and one tutor**. All five rated the overall experience **4/5**.
-
-| Experience | Mean rating out of 5 |
-| --- | ---: |
-| Shape creation and deletion tutorial | 4.8 |
-| Scaling tutorial | 4.4 |
-| Gravity control tutorial | 4.2 |
-| Overall experience | 4.0 |
-
-Participants valued the manipulation features and several found the tutorials helpful. However, feedback exposed unclear controller-button mappings, excessive tutorial text, difficulty controlling scaling, and bugs affecting state feedback. The report records that one participant skipped the gravity tutorial and needed verbal clarification during scaling.
-
-These findings support further refinement of the learning experience. The small sample and assisted interactions do not demonstrate that every participant independently completed every task or that cognitive load was measurably reduced.
-
-#### Next Design Priorities
-
-Replace lengthy instructions with shorter steps and progressive prompts; make controller buttons and gravity/scaling states easier to identify; resolve documented state bugs; and introduce challenges with increasing difficulty. Duplicating an already adjusted object was also suggested by the tutor. These are proposed improvements, rather than verified additions to the demonstrated prototype.
-
-### Key Interactions
-
-| Interaction | Prototype behaviour |
-| --- | --- |
-| Shape creation | Generate primitive shapes from the workbench. The testing plan describes revised creation that places a cloned shape directly into the user's hand. |
-| Direct manipulation | Grab, move, and rotate shapes with VR controllers. |
-| Two-handed scaling | Adjust object size and switch between uniform and non-uniform scaling modes. |
-| Deletion | Remove shapes through the trash-can interaction introduced in the first tutorial. |
-| Gravity control | Switch gravity on or off to explore falling or suspended arrangements. |
-| Guided practice | Progress through creation/deletion, scaling, and gravity tutorials before exploring workshop challenges. |
-
-Combining shapes in the workshop means arranging individual objects into a construction. Dedicated grouping, ungrouping, or mesh-editing tools are not established by the supplied demonstration and evaluation materials.
-
-### My Contribution
-
-- Developed the interaction concept and spatial manipulation workflow.
-- Implemented and iterated the Unity prototype and controller interactions.
-- Designed the tutorial sequence and workshop practice activities.
-- Planned and evaluated task-based testing using timings and questionnaires.
-- Synthesised feedback into priorities for visual guidance, controller labels, and clearer state feedback.
-
-### Key Learning
-
-Spatial manipulation still requires explicit guidance. The project showed why designers need to test the connection between users' expectations and controller behaviour, rather than assume that a physical-looking interaction will explain itself.
-
-### Project Link
-
-- [Github](https://github.com/Arthur-Arcadia/XR-3D-Modeling-Tool)
-- [Demo Video](https://drive.google.com/file/d/1L0Ycil7Cyla3FEjFKskH3Xfstvm3tWH1/view?usp=sharing)
----
-
-## Skills & Methods
-
-### UX / HCI
-
-- User Interviews
-- Qualitative Research
-- Affinity Mapping
-- Thematic Analysis
-- User Personas
-- User Journey Mapping
-- Problem Framing
-- Design Opportunities
-- User Testing
-- Interaction Design
-- Prototyping
-- Usability Evaluation
-
-### Interaction Design
-
-- Social Computing
-- Collaborative Interaction
-- Tangible Interaction
-- Spatial Interaction
-- Human-Computer Interaction
-- Interactive Systems
-- Physical Computing
-- XR Interaction
-- Information Design
-
-### Tools & Technologies
-
-#### Design
-
-- Figma
-
-#### Development
-
-- HTML
-- CSS
-- JavaScript
-- C#
-- Unity
-
-#### Interactive / Physical Computing
-
-- Arduino
-- ESP32
-- Sensors
-- Servo Motors
-- ESP-NOW
-
-#### XR
-
-- Unity
-- Meta XR
-- OpenXR
+[Demo Video](https://drive.google.com/file/d/1L0Ycil7Cyla3FEjFKskH3Xfstvm3tWH1/view?usp=sharing) · [Repository](https://github.com/Arthur-Arcadia/XR-3D-Modeling-Tool)
 
 ---
 
-## Design Approach
+### 06 — XR 3D Modelling Tool
+*A Controller-Based VR Modelling Workshop*
 
-Across my projects, I am interested in the relationship between **people, technology, and context**.
+A student wellbeing prototype connecting self-help resources with clearer information about professional support.  
 
-My design process generally follows:
+- Conducted interviews and thematic analysis across three iterations, translating findings about awareness, privacy, and cost into design priorities.
+- Developed the Service Explorer, combining service descriptions, location and price filters, and linked map results; evaluated its usefulness through user testing.
 
-**Understand → Define → Explore → Prototype → Test → Iterate**
+**Status:** Completed academic MVP · evaluated through user testing
 
-I try to use research and testing to understand not only whether an interaction works, but also **why people behave in particular ways and how the surrounding social or physical context influences interaction**.
+[Github Link](https://drive.google.com/file/d/1L0Ycil7Cyla3FEjFKskH3Xfstvm3tWH1/view?usp=sharing) · [Repository](https://github.com/Arthur-Arcadia/XR-3D-Modeling-Tool)
 
 ---
+
+## Core Skills
+
+**UX Research:** Interviews, thematic analysis, affinity mapping, usability testing.  
+**Interaction Design:** Prototyping, web interaction, physical computing, XR interaction.  
+**Tools & Development:** Figma, HTML/CSS/JavaScript, Unity/C#, Arduino/ESP32, GitHub.
 
 ## Contact
 
 **Email:** arthur.zhouzr@gmail.com  
-**LinkedIn:** [LinkedIn Profile](http://www.linkedin.com/in/zirui-zhou-3b5752399)
-
----
-
-## Project Status
-
-| Project | Type | Status |
-| --- | --- | --- |
-| Pally | Social Computing / Interaction Design / Groupware | Interactive prototype |
-| SqueezeCare | UX Research / Interaction Design / Physical–Digital Concept Design | Research and concept proposal; no working interactive prototype |
-| The Witch’s Puppet | Physical Computing / Haptic Interaction / Cooperative Carnival Game | Working prototype exhibited and tested with participants |
-| Cultural Heritage Interactive Website | Web Interaction / Digital Heritage / Information Design | Front-end prototype with external API integrations |
-| XR 3D Modelling Tool | XR / Spatial Interaction / 3D Interaction | Evaluated VR prototype |
+**LinkedIn:** [Zirui Zhou](http://www.linkedin.com/in/zirui-zhou-3b5752399)
