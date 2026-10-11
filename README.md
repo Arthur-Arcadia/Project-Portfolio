@@ -14,7 +14,7 @@ Explores social pressure in multiplayer gaming through playful tools for group d
 
 **Status:** Interactive prototype
 
-[GitHub LInk](https://github.com/Arthur-Arcadia/Pally)
+[GitHub Link](https://github.com/Arthur-Arcadia/Pally)
 
 ---
 
@@ -87,7 +87,22 @@ A student wellbeing prototype connecting self-help resources with clearer inform
 
 **Status:** Completed academic MVP · evaluated through user testing
 
-[GitHub Link](https://github.com/Arthur-Arcadia/Student-Well-Being)  
+[Live Demo](https://arthur-arcadia.github.io/Student-Well-Being/)  
+[GitHub Link](https://github.com/Arthur-Arcadia/Student-Well-Being) 
+
+---
+
+### 07 - Cyclone Watch — Cyclone Information & Supply Awareness
+
+A map-based web prototype exploring how people can understand cyclone movement and find essential supply information during an emergency.  
+
+- Analysed four public cyclone and wind-risk datasets and reports, translating the findings into concise research input for the team’s design decisions.  
+- Defined follow-up usability improvements for a draggable cyclone timeline, map scaling and responsive inventory views.  
+
+**Status:** Interactive high-fidelity prototype using sample data.  
+
+[Live Demo](https://arthur-arcadia.github.io/Cyclone-Watch/)  
+[GitHub Link](https://github.com/Arthur-Arcadia/Cyclone-Watch)
 
 ---
 
